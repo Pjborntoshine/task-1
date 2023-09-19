@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shopify Chocolate Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#custom-pack">Build Your Pack</a></li>
+                <li><a href="#cart">Your Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="custom-pack">
+        <h2>Build Your Custom Pack (Up to 8 Chocolates)</h2>
+        <div id="chocolate-selection">
+            <!-- Chocolate selection options go here -->
+        </div>
+        <div id="custom-pack-total">
+            <p>Total Price: <span id="total-price">$0.00</span></p>
+            <button id="add-to-cart-button">Add to Cart</button>
+        </div>
+    </section>
+    <main>
+        <ul class="chocolate-list">
+            <li class="chocolate-item">
+                <img src="https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_1000/76859_cadbury-deluxe-chocolate-hamper.jpeg" alt="Chocolate 1">
+                <h2>Deluxe Chocolate</h2>
+                <p class="price">$5.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://m.media-amazon.com/images/I/51Fv0wjTPIL._AC_UF894,1000_QL80_.jpg" alt="Chocolate 2">
+                <h2> Dark Chocolate</h2>
+                <p class="price">$6.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/100265003-2_8-cadbury-dairy-milk-silk-fruit-nut-chocolate-bar.jpg" alt="Chocolate 2">
+                <h2>Dairy milk silk Chocolate</h2>
+                <p class="price">$4.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/9/FG/SG/BN/132812457/cadbury-5-star-chocolate-bar.png" alt="Chocolate 2">
+                <h2>Cadbury 5 Star Chocolate Bar
+                </h2>
+                <p class="price">$5.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://c8.alamy.com/comp/H973F7/an-assortment-of-mars-celebrations-mini-chocolate-bars-H973F7.jpg" alt="Chocolate 2">
+                <h2>Mini chocolate bars hi-res stock 
+                </h2>
+                <p class="price">$8.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://www.mcgill.ca/oss/files/oss/styles/hd/public/white_chocolate.jpg?itok=Al8lLi2F&timestamp=1500478056" alt="Chocolate 2">
+                <h2>White chocolate and brown chocolate
+                </h2>
+                <p class="price">$9.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://www.lindtusa.com/media/catalog/product/c/h/chocolate-lovers-gift-basket-2023.png?quality=80&fit=bounds&height=310&width=310&canvas=310:310" alt="Chocolate 2">
+                <h2>Gourmet Chocolate 
+                </h2>
+                <p class="price">$6.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://www.havmor.com/sites/default/files/styles/502x375/public/gallery/Chocolate%20Cake-01.jpg?itok=uFvgjNNx" alt="Chocolate 2">
+                <h2>Chocolate Cake | Havmor
+                </h2>
+                <p class="price">$4.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/40003735_9-amul-dark-chocolate-55-rich-in-cocoa.jpg" alt="Chocolate 2">
+                <h2>Premium Dark Chocolate</h2>
+                <p class="price">$6.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/40003735_9-amul-dark-chocolate-55-rich-in-cocoa.jpg" alt="Chocolate 2">
+                <h2>Premium Dark Chocolate</h2>
+                <p class="price">$6.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/40003735_9-amul-dark-chocolate-55-rich-in-cocoa.jpg" alt="Chocolate 2">
+                <h2>Premium Dark Chocolate</h2>
+                <p class="price">$6.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <li class="chocolate-item">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/40003735_9-amul-dark-chocolate-55-rich-in-cocoa.jpg" alt="Chocolate 2">
+                <h2>Premium Dark Chocolate</h2>
+                <p class="price">$6.99</p>
+                <button class="select-button">select</button>
+            </li>
+            <!-- More chocolate items go here -->
+        </ul>
+    </main>
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items go here -->
+        </ul>
+        <div id="cart-total">
+            <p>Total Price: <span id="cart-total-price">$0.00</span></p>
+        </div>
+    </section>
+    <section id="contact">
+        <!-- Contact information and form go here -->
+    </section>
+    <div id="custom-notification" class="hidden">
+        <div class="notification-content">
+            <p>You can only select up to 8 chocolates.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Chocolate Shop</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
